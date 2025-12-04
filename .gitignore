@@ -70,6 +70,14 @@ web_modules/
 .env.*
 !.env.example
 
+#ignore dotenv in subfolders
+*/.env 
+*.env
+*.env.*
+*/config.env
+
+
+
 # parcel-bundler cache (https://parceljs.org/)
 .cache
 .parcel-cache
